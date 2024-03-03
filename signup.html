@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device
+-width, initial-scale=1.0">
+ <title>Sign Up - Career Spring</title>
+ <style>
+	 
+ body {
+   margin: 0;
+   padding: 0;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   min-height: 100vh;
+   background: linear-gradient(to right, #B2FFFF, #008080, #006D6F );
+   font-family: 'Arial', sans-serif;
+   position: relative;
+  }
+  container {
+   background: rgba(255, 255, 255, 0.15);
+   border-radius: 15px;
+   padding: 20px;
+   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+   width: 90%;
+   max-width: 400px;
+   text-align: center;
+   perspective: 1000px;
+  }
+
+  .glass-panel {
+   background: rgba(255, 255, 255, 0.1);
+   border-radius: 10px;
+   padding: 20px;
+   margin-bottom: 20px;
+   backdrop-filter: blur(10px);
+   border: 1px solid rgba(255, 255, 255, 0.3);
+   transform-style: preserve-3d;
+   transition: transform 0.5s;
+  }
+
+  .glass-panel input {
+   width: 90%;
+   padding: 10px;
+   margin: 10px 0;
+   border: none;
+   border-radius: 5px;
+   background: rgba(255, 255, 255, 0.1);
+   color: #fff;
+   outline: none;
+  }
+
+  .glass-panel button {
+   width: 100%;
+   padding: 10px;
+   border: none;
+   border-radius: 5px;
+   background: #3498db;
+   color: #fff;
+   cursor: pointer;
+   outline: none;
+  }button {
+   width: 100%;
+   padding: 10px;
+   border: none;
+   border-radius: 5px;
+   background: #26D66E;
+   color: #fff;
+   cursor: pointer;
+   outline: none;
+  }
+
+  .glass-panel button:hover
+.footer {
+   position: absolute;
+   bottom: 10px;
+   right: 10px;
+   color: #fff;
+   font-size: 12px;
+  }
+
+  .watermark {
+   position: fixed;
+   bottom: 10px;
+   right: 10px;
+   font-size: 14px;
+   color: rgba(255, 255, 255, 1);
+   pointer-events: none;
+  }
+ </style>
+</head>
+<body>
+<div class="container">
+ <div class="glass-panel">
+  <h1 style="color: #ffffff;">Welcome user</h1>
+  <h2 style="color: #ffffff;">Please fill the below fields to start your journey</h2>
+  <form id="login_form" action="/api_signup" method="post" style="text-align: start;">
+   <label for="name" style="color: #ffffff;">Name</label>
+   <input name="name" type="text" placeholder="Name" required><label for="email" style="color: #ffffff;">Email</label>
+   <input name="email" type="text" placeholder="Email" required>
+
+   <label for="password" style="color: #ffffff;">Password</label>
+   <input name="password" type="password" placeholder="Password" required>
+
+   <button type="submit">Create account</button>
+  </form>
+ </div>
+ <a href="login.html" class="button" style="text-decoration:none" >Back to Sign in</a>
+</div>
+
+<footer><div class="watermark">©Career Spring </div></footer>
+</body>
+</html>
