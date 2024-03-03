@@ -1,6 +1,9 @@
-Career Spring
+Career Spring       
+
 Tink-Her-Hack 2.0
-Problem Statement: The struggle of engineers in finding good opportunities that align with their preferences and skills
+
+Problem Statement: The struggle of engineers in finding good opportunities that align with their preferences and skill
+
 Solution: Creating a website exclusively for Engineers for Job Hunting
 Stack used: flask,classnav
 Career Spring: Empowering Engineers in their Career Journey
