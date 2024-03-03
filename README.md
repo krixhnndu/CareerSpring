@@ -1,6 +1,6 @@
 Career Spring       
 
-Tink-Her-Hack 2.0
+TINK HER HACK 2.0
 
 Problem Statement: The struggle of engineers in finding good opportunities that align with their preferences and skill
 
