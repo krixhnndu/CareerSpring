@@ -5,7 +5,9 @@ Tink-Her-Hack 2.0
 Problem Statement: The struggle of engineers in finding good opportunities that align with their preferences and skill
 
 Solution: Creating a website exclusively for Engineers for Job Hunting
+
 Stack used: flask,classnav
+
 Career Spring: Empowering Engineers in their Career Journey
 
 Career Spring is a cutting-edge online platform designed to support engineers at every stage of their career evolution. With an intuitive interface and comprehensive resources, Career Spring serves as the ultimate destination for navigating the intricate landscape of today's job market while fostering long-term career success.
